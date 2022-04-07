@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Task Alta #1</title>
+    <!-- Icon -->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tugas Weekly Alta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Week 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Week 2</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="tasks-section my-5">
+            <div class="row align-items-center header">
+                <div class="col">
+                    <h4>Week 1 Task</h4>
+                    <p class="ml-auto mb-0">Deny Firdhaus Hadi Prayitno</p>
+                    <p>(ReactJS Class A)</p>
+                </div>
+                <div class="col">
+                    <h2 class="text-end">
+                        My Task Tabs
+                    </h2>
+                </div>
+            </div>
+            <div class="dashboard-content">
+                <ul class="nav nav-pills mt-3" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="git-tab" data-bs-toggle="tab" href="#version-control" role="tab"
+                            aria-controls="version-control" aria-selected="true">Version Control Git</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="UIUX-Tab" data-bs-toggle="tab" href="#uiux" role="tab"
+                            aria-controls="uiux" aria-selected="false">Introduction UI UX</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="figma-Tab" data-bs-toggle="tab" href="#figma" role="tab"
+                            aria-controls="figma" aria-selected="false">Figma</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="html-Tab" data-bs-toggle="tab" href="#html" role="tab"
+                            aria-controls="html" aria-selected="true">HTML</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="css-Tab" data-bs-toggle="tab" href="#css" role="tab" aria-controls="css"
+                            aria-selected="true">CSS</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="bootstrap-Tab" data-bs-toggle="tab" href="#bootstrap" role="tab"
+                            aria-controls="bootstrap" aria-selected="true">Bootstrap</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="javascript-Tab" data-bs-toggle="tab" href="#javascript" role="tab"
+                            aria-controls="javascript" aria-selected="true">Javascript</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="cleancode-Tab" data-bs-toggle="tab" href="#cleancode" role="tab"
+                            aria-controls="cleancode" aria-selected="true">Clean Code</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="version-control" role="tabpanel"
+                        aria-labelledby="version-control-tab">
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <div class="card card-list d-block" href="#">
+                                    <div class="card-body">
+                                        <div class="px-4">
+                                            <h4 class="text-center my-3">
+                                                Version Control and Branch Management
+                                            </h4>
+                                            <h5>
+                                                1. Introduction to Git and Github
+                                            </h5>
+                                            <p>
+                                                Versioning : melakukan sebuah pengaturan versi atau pelacakan perubahan
+                                                dari setiap code program. Untuk apa melakukan versioning? digunakan
+                                                untuk mentracking terkait permasalahan baik itu pengubahan objek kode
+                                                atau seseorang yang melakukan perubahan. Sehingga penting saat ini untuk
+                                                menggunakan VCS (Versioning Control System) seperti Github. Tools yang
+                                                bisa dipakai VCS, SCM, dan RCS.
+                                                <br><br>
+                                                # Version Control System (VCS)
+                                                <br><br>
+                                                1. Single User : bentuk versioning masih localized
+                                                <br>
+                                                2. Centralized : ada sistem terpusat bagi banyak developer bisa
+                                                melakukan pengubahan file di server secara langsung.
+                                                <br>
+                                                3. Distributed : merupakan gabungan, terdapat file local yang
+                                                tersinkronisasi dengan file yang ada di server / central / pusat data.
+                                                <br><br>
+                                                # More About Git and Github
+                                                <br><br>
+                                                - GIT : salah satu contoh VCS Distributed yang digunakan developer untuk
+                                                mengembangkan software secara bersama-sama / kolaborasi.
+                                                <br>
+                                                - Git Repository : sebuah folder project di github untuk menyimpan local
+                                                files yang telah di upload ke server. Didalamnya terdapat 2 hal folder
+                                                dan file kode serta folder .git yang sifatnya terhidden yang berisikan
+                                                mengenai Riwayat commit dan perubahan yang dilakukan pada kode.
+                                                <br>
+                                                - Github = git hosting service, yang dianggap sebagai sosmed developer
+                                                dan menjadi sebuah tempat untuk menampung proyek git serta mempermudah
+                                                dalam meng-hosting di server tanpa susah payah harus men-setup /
+                                                konfigurasi server git.
+                                            </p>
+                                            <h5>
+                                                2. Learning Git Commands and starting in Github
+                                            </h5>
+                                            <p>
+                                                # Membuat repository di github :
+                                                <br><br>
+                                                - Membuat akun di github sampai verifikasi
+                                                <br>
+                                                - Menuju ke ”your repositories”
+                                                <br>
+                                                - Membuat repo baru
+                                                <br>
+                                                - Mengisi nama repo
+                                                <br>
+                                                - Memberikan deskripsi
+                                                <br>
+                                                - Memilih jenis repo (public / private)
+                                                <br>
+                                                - Tambahkan readme file sebagai dokumentasi penting
+
+                                                <br><br>
+                                                # More about Github utils
+                                                <br><br>
+                                                - .gitignore : digunakan untuk mengecualikan file besar, contoh pada
+                                                proyek node-js akan ada folder node_modules yang sangat besar dan sangat
+                                                tidak disarankan untuk diupload ke server, dan file seperti .env yang
+                                                tidak perlu diupload ke server.
+                                                <br>
+                                                - Licences : menentukan sifat proyek yang dibuka sesuai dengan skala
+                                                kebutuhan proyek baik itu nanti bisa dibisniskan atau hanya bisa dilihat
+                                                dan didownload saja.
+                                                <br><br>
+
+                                                # Staging area
+                                                <br><br>
+                                                dalam local git terdapat 3 hal yakni working directory, staging area,
+                                                dan repository.
+                                                <br><br>
+                                                - Working directory : file / folder yang ada di local akan masuk ke
+                                                staging area
+                                                <br>
+                                                - Staging Area : tempat penandaan file yang mengalami perubahan sebelum
+                                                melakukan commit, membutuhkan pesan mengenai perubahan yang dibuat
+                                                <br>
+                                                - Repository : commit akan perubahan tadi sudah siap dikirim ke repo
+                                                <br><br>
+
+                                                # More about git commands
+                                                <br><br>
+                                                - Git Status : mengeluarkan keadaan git dimulai dari keterangan branch
+                                                dan file commit dan perubahan di working directory.
+                                                <br>
+                                                - Git Diff : mengetahui perubahan apa saja yang terjadi dalam file.
+                                                <br>
+                                                - Git Stash : sebuah penyimpanan sementara bagi perubahan yang telah
+                                                digunakan dalam sebuah stash area.
+                                                <br>
+                                                - Git log : melihat Riwayat commit pada repo.
+                                                <br>
+                                                - Git reset {commit id} --soft : ketika mau kembali ke suatu titik,
+                                                perubahan yang sudah terjadi akan tetap ter tracking di staging area.
+                                                <br>
+                                                - Git reset {commit id} –hard : perubahan yang sudah terjadi tidak akan
+                                                ter tracking
+                                                <br>
+                                                - Git push : perintah mengirimkan commit ke server / repo
+                                                <br>
+                                                - Git fetch {nama jalan / origin}: semacam mengambil data yang ada
+                                                didalam server / repo
+                                                <br>
+                                                - Git pull {nama jalan / origin} {branch} : merupakan command yang
+                                                menjalankan dua perintah yakni fetch dan push sekaligus secara
+                                                berurutan.
+                                                <br>
+                                                - Melakukan cek branch pada working directory dengan ‘git branch’.
+                                                <br>
+                                                - Menambah branch dengan command ‘git branch {nama branch}’
+                                                <br>
+                                                - Menghapus branch dengan command ‘git branch -D {nama branch}’
+                                                <br>
+                                                - Melihat seluruh branch yang ada di remote server dan di local dengan
+                                                ‘git branch -a’
+                                                <br>
+                                                - Git checkout : berpindah dan membuat branch baru dengan membawa
+                                                perubahan yang sudah ada pada branch awal.
+                                                <br>
+                                                - Git merge : Mengambil perubahan dari branch lain.
+                                                <br>
+                                                - Memindah fast-forward / memindah jadi 1 line artinya perubahan yang
+                                                terjadi sama dengan ‘git merge –ff {nama branch}’
+                                                <br>
+                                                - Memindah non fast-forward / memindah menjadi line yang berdeda artinya
+                                                tetap menjadi cabang yang berbeda dengan ‘git merge –no-ff {nama
+                                                branch}’
+                                                <br>
+                                                - Pull request : meminta agar branch untuk di pull ke branch utama /
+                                                development karena fitur sudah selesai, dilakukan melalui github
+                                            </p>
+                                            <h5>
+                                                3. Workflow Collaboration
+                                            </h5>
+                                            <p>
+                                                Kolaborasi yang dilakukan pada github hendaknya memiliki bagian
+                                                tersendiri yang jelas sehingga dalam mengerjakan dapat fokus dalam 1 hal
+                                                dan mudah untuk di manage ketika melakukan kesalahan.
+                                            </p>
+                                        </div>
+                                        <hr>
+                                        <div class="img-container">
+                                            <h3 class="ms-4">ScreenShot Tugas:</h3>
+                                            <img src="./assets/img/screenshots/1_praktikum-github.png"
+                                                alt="praktikum-github" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="uiux" role="tabpanel" aria-labelledby="uiux-tab">
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <div class="card card-list d-block" href="#">
+                                    <div class="card-body">
+                                        <div class="px-4">
+                                            <h4 class="text-center my-3">
+                                                Introduction UI/UX
+                                            </h4>
+                                            <h5>
+                                                1. UX (User Experience)
+                                            </h5>
+                                            <p>
+                                                Apapun yang pengguna rasakan ketika mereka menggunakan produk. UX
+                                                terdiri dari bidang kelompok yang besar diantaranya ada:
+                                                <br><br>
+                                                - Business Logic
+                                                <br>
+                                                - Technology
+                                                <br>
+                                                - Interaction Logic
+                                                <br>
+                                                - Design
+                                                <br>
+                                                - Computer Communication
+                                                <br>
+                                                - Business
+                                                <br><br>
+                                                # Tahapan UX Thinking
+                                                <br><br>
+                                                1. Empathize : berpura-pura / berimajinasi untuk melihat dunia dari
+                                                sudut pandang user dan memahami perasaan para user sehingga komunikasi
+                                                yang dibuat antara user dan pengelola software dapat terhubung /
+                                                nyambung. Perlu membuat User Persona yang merupakan profile dari target
+                                                user, prinsip mendasar dalam membuat suatu user persona adalah apasih
+                                                desain yang kita buat dan untuk siapa desain / UX ini kita buat.
+                                                <br>
+                                                Dari user persona ini akan terbuat sebuah karakteristik yang nantinya
+                                                bisa dibuat menjadi user job stories yang meliput 3 hal yakni situasi
+                                                (situation), motivasi (motivation), dan hasil yang diinginkan (outcome).
+                                                Type of an actual user profile according to their expectations, needs,
+                                                goals, and observed behaviour patterns -> User Persona
+                                                <br>
+                                                Usability Testing : salah satu cara untuk mengetahui apakah user dapat
+                                                dengan mudah menggunakan software / program yang telah dibuat. Seberapa
+                                                efisien dan efektif sebuah aplikasi dapat membantu user untuk mencapai
+                                                tujuannya, serta bagaimana kepuasan user ketika menggunakan aplikasi
+                                                tersebut. Usability testing dapat digunakan untuk produk / software yang
+                                                baru dibuat dengan melakukan pengambilan data secara kualitatif
+                                                melakukan interview kepada para user yang menggunakan produk kita. Pada
+                                                produk / software yang sudah ada (existing product), kita dapat
+                                                melakukan usability testing dengan pengambilan data secara kuantitatif
+                                                dengan melakukan penyebaran angket kepada para user yang telah
+                                                menggunakan produk tersebut.
+                                                <br><br>
+                                                2. Define : pada tahap ini, kita menggunakan setiap informasi yang telah
+                                                ciptakan atau kumpulkan pada tahap sebelumnya sehingga dapat
+                                                memprioritaskan informasi yang ada. Harapan pada tahap ini kita dapat
+                                                menentukan / mendefinisikan masalah inti dari user sehingga dapat
+                                                memfokuskan apa yang perlu dikembangan dalam UX suatu produk.
+                                                <br><br>
+                                                3. Ideate : User goal dapat berisikan dari user flow dari setiap langkah
+                                                apa saja flow yang diperlukan bagi setiap user ketika menggunakan produk
+                                                yang dibuat sehingga dapat terlihat hasil akhir atau goals yang bisa
+                                                dicapai oleh user pada produk kita. Bisa dimulai dengan membuat task
+                                                flow nya yang berisikan tahapan / langkah-langkah yang user lakukan
+                                                sampai user menyelesaikan setiap langkahnya. Ketika task flow sudah
+                                                selesai, maka kita bisa beralih untuk membuat wireflow yakni kombinasi
+                                                antara wireframe dan flowchart. Wireframe merupakan sebuah kerangka
+                                                untuk menata suatu item dalam produk, flowchart atau bagan alur adalah
+                                                diagram yang menampilkan langkah-langkah dan keputusan untuk melakukan
+                                                suatu proses dari suatu program.
+                                                <br><br>
+                                                4. Prototype
+                                                <br>
+                                                5. Validate
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                2. User Interface (UI)
+                                            </h5>
+                                            <p>
+                                                Ketika sudah selesai tahapan wireflow maka kita bisa beralih ke user
+                                                interface dari produk. User interface adalah visual yang user gunakan
+                                                untuk berinteraksi pada aplikasi yang dibuat. UI memiliki 4 pilar
+                                                didasari tentang bagaimana penampilan dan pemahaman dari desain agar
+                                                bisa saling klop / bekerja sama (worked together).
+                                                <br><br>
+                                                - Consistency : menggunakan desain yang memiliki pola yang sama untuk
+                                                setiap halamannya serta alur penggunaan yang mirip untuk setiap
+                                                halamannya.
+                                                <br>
+                                                - Keep the interface simple : perlu untuk menghilangkan elemen-elemen
+                                                yang mungkin tidak diperlukan dalam sebuah halaman. Serta menggunakan
+                                                bahasa yang jelas dalam setiap button / interaksi yang ada dapat membuat
+                                                user lebih mudah dalam berinteraksi dalam aplikasi.
+                                                <br>
+                                                - Good Typography : penggunaan typeface yang tepat sesuai dengan kondisi
+                                                halaman. Perlu diperhatikan juga seperti penggunaan ukuran, jenis font,
+                                                dan tata letak pengaturan dalam menggunakan text sehingga dapat mudah
+                                                untuk dibaca.
+                                                <br>
+                                                - Offer Informative Feedback : umpan balik dari suatu aksi yang
+                                                diberikan kepada user haruslah berarti, relevan dan jelas. Bisa
+                                                ditambahkan deskripsi sebagai penjelas bagi user.
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                3. Protoype
+                                            </h5>
+                                            <p>
+                                                Merupakan sebuah simulasi atau contoh sampel yang menggambarkan final
+                                                product. Tujuannya adalah digunakan untuk melakukan test product sebelum
+                                                menghabiskan banyak waktu dan uang dalam projek yang dibuat. Selain itu
+                                                tujuan dari prototype adalah mendapatkan feedback dari user,
+                                                stakeholder, dan tim sehingga dapat memberikan masukan terkait produk
+                                                yang akan dibuat. Kedua, juga bisa bertujuan untuk menunjukkan bentuk
+                                                interaksi yang terjadi di projek nanti sehingga mempermudah developer
+                                                untuk membuat program / aplikasi / software nantinya. Terdapat 3 pilar
+                                                dalam prototype :
+                                                <br><br>
+                                                - Representation : Shows the platform used (mobile / desktop)
+                                                <br>
+                                                - Precision : The fidelity of the prototype, ketepatan suatu prototype
+                                                <br>
+                                                - Interactivity : Shows the functionality (interaction) to user
+                                                <br><br>
+                                                Tools prototyping : Axure RP, Adobe XD, invision, marvel, sketch,
+                                                balsamiq, flinto, figma
+                                            </p>
+                                        </div>
+                                        <hr>
+                                        <div class="img-container">
+                                            <h3 class="ms-4">ScreenShot Tugas:</h3>
+                                            <img src="./assets/img/screenshots/2_furniture landing page.png" alt="uiux1"
+                                                class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="figma" role="tabpanel" aria-labelledby="figma-tab">
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <div class="card card-list d-block" href="#">
+                                    <div class="card-body">
+                                        <div class="px-4">
+                                            <h4 class="text-center my-3">
+                                                Figma
+                                            </h4>
+                                            <h5>
+                                                1. Intro Figma
+                                            </h5>
+                                            <p>
+                                                Figma merupakan editor graphic vector dan alat prototyping yang berbasis
+                                                web dengan fitur offline yang digunakan untuk aplikasi desktop baik itu
+                                                untuk macOS atau windows.
+                                                <br><br>
+                                                # Kelebihan Figma :
+                                                <br><br>
+                                                - Aplikasi yang free
+                                                <br>
+                                                - Bisa digunakan Mac dan PC
+                                                <br>
+                                                - Real-time team collaboration
+                                                <br>
+                                                - Bisa import Sketch file tapi gabisa export Sketch file
+                                                <br>
+                                                - Mengintegrasikan developer yang bekerja terpisah
+                                                <br>
+                                                - Memiliki library yang bagus
+                                                <br>
+                                                - Dapat melakukan integrasi prototyping
+                                                <br><br>
+                                                # Kekurangan Figma :
+                                                <br><br>
+                                                - Memerlukan jaringan internet untuk mengoperasikannya
+                                                <br>
+                                                - Namun bisa digunakan secara offline, hanya saja filenya akan tersimpan
+                                                secara local dan bisa ditambahkan nanti telah terhubung dengan internet
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                2. Figma Utilities
+                                            </h5>
+                                            <p>
+                                                # IDE / Tools :
+                                                <br><br>
+                                                - Icon Figma : overview dari semua project dan files
+                                                <br>
+                                                - Open file tab baru
+                                                <br>
+                                                - Add / create single file
+                                                <br>
+                                                - Tampilan awal berisikan draft dari project yang dimiliki / sedang
+                                                dikerjakan
+                                                <br>
+                                                - Pada sidebar menu terdapat draft yang bisa digunakan untuk mengakses
+                                                recent file yang dikerjakan
+                                                <br>
+                                                - Adapun beberapa section yang berkaitan saat bekerja kolaborasi dengan
+                                                tim, yakni dari nama tim, project yang dimiliki / dikerjakan oleh tim,
+                                                atau membuat tim baru
+                                                <br><br>
+
+                                                # Melakukan import file sketch :
+                                                <br><br>
+                                                - Drag and drop file sketch kedalam figma
+                                                <br><br>
+                                                # Setting up frame baru / artboard :
+                                                <br><br>
+                                                - Klik button frame atau tombol shortcut keyboard ‘F’
+                                                <br>
+                                                - Kemudian klik pada kanvas dan pada bagian kanan lakukan pemilihan
+                                                ukuran artboard yang akan dibuat
+                                                <br><br>
+
+                                                # Setting grid dan layout kolom :
+                                                <br><br>
+
+                                                - Pada sidebar di sebelah kanan, pada menu layout grid tambahkan sebuah
+                                                pengaturan dan lakukan perincian grid properties kolom atau baris dengan
+                                                memilih menu yang ada. Pengaturan yang bisa dilakukan lainnya adalah
+                                                mengedit warna, jenis grid, lebar, jumlah, margin dan gutter dari grid
+                                                kolom atau baris yang akan dibuat sesuai kebutuhan.
+                                                <br><br>
+
+                                                # Layers dan groups :
+                                                <br><br>
+
+                                                - Terletak pada sidebar bagian kiri, dibagi menjadi dua bagian yakni
+                                                layers dan asset. Asset berisikan komponen-komponen yang dibuat pada
+                                                project. Kemudian ada page untuk mempermudah pembagian / fokus desain
+                                                pada kanvas. Lalu terdapat sebuah komponen, group item, text layer,
+                                                shape, dan instance dalam bagian menu layers.
+                                                <br>
+                                                Images :
+                                                <br>
+                                                - Bisa melakukan import untuk images atau gambar yang akan dimasukkan
+                                                kedalam figma dengan cara drag and drop kemudian bisa dilakukan sebuah
+                                                editing image properties seperti bagaimana ukuran, radius, bentuk
+                                                pengeditan foto dan beberapa enhancement yang bisa diberikan pada image.
+                                                <br>
+                                                Typography :
+                                                <br>
+                                                - Pertama buat text terlebih dulu melalui icon ‘T’ disamping icon frame
+                                                pada menubar diatas, kemudian nanti akan muncul text properties yang
+                                                bisa digunakan untuk melakukan edit ukuran, ketebalan, warna, alignment,
+                                                dan spacing serta jenis dari font yang digunakan.
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                3. Prototyping
+                                            </h5>
+                                            <p>
+                                                Membuat sebuah simulasi dari desain yang telah dibuat dapat dengan
+                                                melakukan:
+                                                <br><br>
+                                                - Mengeklik frame yang akan diberi aksi
+                                                <br>
+                                                - Pada sidebar kanan, klik menu prototype
+                                                <br>
+                                                - kemudian tambahkan interactions yang diinginkan, mulai dari ketika
+                                                melakukan klik, hovering, atau saat mouse bergerak masuk ke frame dan
+                                                lain-lain.
+                                                <br>
+                                                - tentukan perubahan yang diinginkan, arahkan ke frame baru hasil aksi
+                                                <br>
+                                                - tentukan juga animasi atau efek dalam proses prototyping seperti
+                                                fade-in, fade-out, ease-in, ease-out, dan lain sebagainya
+                                                <br><br>
+                                            </p>
+                                        </div>
+                                        <hr>
+                                        <div class="img-container">
+                                            <h3 class="ms-4">ScreenShot Tugas:</h3>
+                                            <img src="./assets/img/screenshots/3_figma-deny.png" alt="figma-deny"
+                                                class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="html" role="tabpanel" aria-labelledby="html-tab">
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <div class="card card-list d-block" href="#">
+                                    <div class="card-body">
+                                        <div class="px-4">
+                                            <h4 class="text-center my-3">
+                                                HTML
+                                            </h4>
+                                            <h5>
+                                                1. Intro Frontend Development
+                                            </h5>
+                                            <p>
+                                                Pada proses web development dibagi menjadi dua yakni frontend dan backend. Backend merupakan bagian website yang tidak dapat berinteraksi langsung atau dilihat oleh user contohnya database. Sedangkan frontend merupakan bagian dari website yang bisa dilihat dan berinteraksi dengan user.
+                                                <br>
+                                                Secara istilah, frontend adalah sebuah bagian dari website yang membuat tampilan yang menarik kepada user yang dibangun dari 3 komponen utama yakni HTML, CSS, dan JS yang masing-masing memiliki fungsi dan perannya masing-masing
+                                                <br><br>
+                                                1.	HTML : berfungsi sebagai struktur yang akan membangun komponen website yang akan dibuat
+                                                <br>
+                                                2.	CSS : berfungsi untuk membuat tampilan website jadi lebih menarik
+                                                <br>
+                                                3.	JS : bertugas untuk memberikan fungsi fungsi sehingga website yang dibangun menjadi lebih hidup dan interaktif. 
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                2. Intro HTML
+                                            </h5>
+                                            <p>
+                                                HTML merupakan singkatan dari Hypertext Markup Language atau yang bisa diartikan sebagai bahasa yang menggunakan marka atau tag untuk membuat sebuah website.
+                                                <br><br>
+                                                Kegunaan :
+                                                <br>
+                                                -	Membuat struktur konten dari halaman website
+                                                <br>
+                                                -	Mengatur tampilan dan isi dari halaman web
+                                                <br>
+                                                -	Membuat tabel dengan tag HTML table
+                                                <br>
+                                                -	Membuat form HTML
+                                                <br>
+                                                -	Membuat gambar dengan canvas
+                                                <br>
+                                                -	Mempublikasikan halaman website secara online
+                                                <br>
+                                                HTML Editors / Text editor berfungsi sebagai tempat untuk mengedit code html, diantaranya adalah notepad, vscode, sublime, notepad++, dan atom.
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                3. More about HTML Tags
+                                            </h5>
+                                            <p>
+                                                Beberapa syntax HTML :
+                                                <br><br>
+                                                - < !DOCTYPE html>, < html>, < head>, < title>, < body> -> merupakan struktur tag utama yang diperlukan ketika membuat suatu website. 
+                                                <br>
+                                                - < h1> - < h6> & < p> -> merupakan tag untuk menghasilkan sebuah text dengan ukuran yang berbeda
+                                                <br>
+                                                - < strong>, < em>, < s>, < u>, < br /> -> merupakan tag untuk melakukan styling text
+                                                <br>
+                                                - < a href=”” target=”_blank”> -> merupakan tag link yang ketika berinteraksi dengan user bisa mengarahkan user ke halaman lain. 
+                                                <br>
+                                                - < img src=”” alt=””> -> tag yang berfungsi untuk menampilkan sebuah gambar
+                                                <br>
+                                                - < ol>, < ul>, < li> merupakan tag untuk membuat list dengan penanda angka atau bullet icon. < ol> bisa dikustomisasi tipe urutannya dengan < ol type=”a/A/i/I”>, < ul> juga bisa dikustomisasi simbolnya dengan < ul type=”square/disc/circle”>
+                                                <br>
+                                                - < table>, < tr>, < td>, < th> -> merupakan tag yang digunakan untuk membuat table lengkap dengan baris, header, dan konten table
+                                                <br>
+                                                - < input type=””> merupakan tag yang digunakan untuk membuat form. Tag input mempunyai banyak tipe yakni text, number, radio, password, dll
+                                                <br>
+                                                - < fieldset>, < legend>, < label> merupakan tag yang digunakan untuk membuat form menjadi lebih informatif bagi pengguna. 
+                                                <br>
+                                            </p>
+                                        </div>
+                                        <hr>
+                                        <div class="img-container">
+                                            <h3 class="ms-4">ScreenShot Tugas:</h3>
+                                            <img src="./assets/img/screenshots/4_preview-index.png" alt="html-index"
+                                                class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="css" role="tabpanel" aria-labelledby="css-tab">
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <div class="card card-list d-block" href="#">
+                                    <div class="card-body">
+                                        <div class="px-4">
+                                            <h4 class="text-center my-3">
+                                                CSS
+                                            </h4>
+                                            <h5>
+                                                1. Intro CSS
+                                            </h5>
+                                            <p>
+                                                CSS merupakan singkatan dari Cascading Style Sheets yang berfungsi untuk menghias halaman dan mengatur peletakan posisi pada suatu halaman website. Terdapat tiga cara untuk menambahkan CSS kedalam suatu HTML / website yakni:
+                                                <br><br>
+                                                1. External CSS: ditambahkan melalui file ekstensi .css yang kemudian digabungkan ditambahkan menyisipkan tag < link> pada tag < head> sebuah HTML
+                                                <br>
+                                                2. Internal CSS: ditambahkan pada dalam file HTML pada tag style pada bagian < head> atau < body>.
+                                                <br>
+                                                3. Inline CSS: ditambahkan langsung kedalam elemen tunggal atau tag yang ingin dihias dengan menggunakan atribut style
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                2. CSS Usage
+                                            </h5>
+                                            <p>
+                                                Syntax CSS terdiri dari:
+                                                <br><br>
+                                                1. Selector dan minimal 1 declaration
+                                                <br>
+                                                2. Dalam sebuah declaration terdapat sebuah property dan value
+                                                <br><br>
+                                                CSS Selector: Penanda digunakan untuk mempermudah target hias dalam CSS, terdapat dua penanda yang digunakan yakni untuk ID menggunakan (# atau tanda pagar) dan untuk class menggunakan (. atau tanda titik).
+                                                <br><br>
+                                                CSS Grouping: Beberapa selector dapat dikelompokkan dalam satu deklarasi style, sehingga tidak perlu menulis style yang sama berulang kali. Caranya adalah dengan menggunakan tanda koma (,). Contoh h1,h2 (style)
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                3. More about CSS Styling
+                                            </h5>
+                                            <p>
+                                                Beberapa styling pada CSS:
+                                                <br><br>
+                                                - CSS Font Properties: font, font-family, font-size, font-weight, font-style, dan @import font.
+                                                <br>
+                                                - CSS Margin & Padding properties: margin, padding dan bagian arah yang ingin berikan semisal ingin lebih rinci semisal margin-top atau padding-right.
+                                                <br>
+                                                - CSS Background Properties: background-color, background-image, background-repeat, background-size, background-position. 
+                                                <br>
+                                                - CSS Link: merupakan link event yang dituliskan setelah selector dengan awalan (:) diantaranya, :hover, :active, :visited. Adapun memberikan efek transisi dengan property 'transition'.
+                                                <br>
+                                                - CSS Table Properties: merupakan style yang digunakan untuk menghias elemen table pada html diantaranya, border, border-collapse, dan :nth-child(even).
+                                                <br>
+                                                - Extra style clearfix yang bisa diberikan untuk merapikan konten dengan properties 'float'.
+                                                <br>
+                                            </p>
+                                        </div>
+                                        <hr>
+                                        <div class="img-container">
+                                            <h3 class="ms-4">ScreenShot Tugas:</h3>
+                                            <img src="./assets/img/screenshots/5_file1html.png" alt="css-file1html"
+                                                class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="bootstrap" role="tabpanel" aria-labelledby="bootstrap-tab">
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <div class="card card-list d-block" href="#">
+                                    <div class="card-body">
+                                        <div class="px-4">
+                                            <h4 class="text-center my-3">
+                                                Bootstrap
+                                            </h4>
+                                            <h5>
+                                                1. Intro Bootstrap
+                                            </h5>
+                                            <p>
+                                                Bootstrap merupkaan sebuah framework untuk membuat website yang responsive dan mudah digunakan dalam sebuah pengembangan sistem terutama sebagai sebuah front-end engineer. Cara untuk menambahkan bootstrap kedalam suatu HTML / website yakni:
+                                                <br><br>
+                                                1. Menambahkan < link> dengan target CDN bootstrap sesuai dengan versi terbaru yang bisa di copy paste melalui website resminya
+                                                <br>
+                                                2. Menambahkan < /script > dengan opsi source bundle bootstrap atau separate bootstrap dan popperJs.
+                                                <br>
+                                                3. Cara terakhir dapat digunakan dengan mengcopy starter template yang sudah disediakan pada website bootstrap.
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                2. Bootstrap Usage
+                                            </h5>
+                                            <p>
+                                                Penggunaan bootstrap banyak digunakan untuk mendapatkan shortcut sebuah style dengan class sederhana yang bisa disesuaikan oleh developer nantinya. Beberapa hal yang termasuk dalam coverage penggunaan bootstrap diantaranya:
+                                                <br><br>
+                                                1. Layouting : merupakan hal yang digunakan untuk mengontrol responsivitas tampilan dengan suatu breakpoint seperti xs,sm,md,lg,xl, dan xxl.
+                                                <br>
+                                                2. Content : merupakan hal yang digunakan untuk mengontrol bentuk dan hiasan yang digunakan pada suatu elemen seperti typography, images, tables, dan figures serta colors palette bawaan dari bootstrap.
+                                                <br>
+                                                3. Forms : merupakan hal yang berfokus untuk mempermudah control suatu forms pada website mulai dari untuk hiasan, grouping, dan interaksinya nanti pada backend.
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                3. More about Bootstrap
+                                            </h5>
+                                            <p>
+                                                Selain hal yang sudah disebutkan tadi bootstrap juga menydiakan beberapa komponen basic yang bisa digunakan oleh developer secara langsung. komponen yang dimaksud disini adalah suatu bagian yang mungkin dipakai dalam website seperti komponen navbar, card, modal, dropdowns, carousel images, dan lain sebagainya. Hal ini bisa developer gunakan sebagai shortcut sehingga proses pengerjaan menjadi lebih mudah serta komponen tersebut masih bisa di custom sesuai dengan kebutuhan.
+                                                <br>
+                                            </p>
+                                        </div>
+                                        <hr>
+                                        <div class="img-container">
+                                            <h3 class="ms-4">ScreenShot Tugas:</h3>
+                                            <img src="./assets/img/screenshots/6_desktop-view.png" alt="bs-desktopview"
+                                                class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="javascript" role="tabpanel" aria-labelledby="javascript-tab">
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <div class="card card-list d-block" href="#">
+                                    <div class="card-body">
+                                        <div class="px-4">
+                                            <h4 class="text-center my-3">
+                                                JavaScript
+                                            </h4>
+                                            <h5>
+                                                1. Intro JS and Basic Understanding of JS
+                                            </h5>
+                                            <p>
+                                                JavaScript merupakan bahasa pemrograman high-level, scripting, untyped, dan interpreted. High-level berarti bahasa pemrograman ini merupakan bahasa yang mudah dimengerti oleh manusia. JavaScript atau JS dibuat untuk berinteraksi dengan sebuah halaman website apapun web browsernya.
+                                                <br><br>
+                                                # 1.a Declaration
+                                                <br><br>
+                                                Jenis declaration merupakan proses pembuatan variabel untuk menyimpan data.
+                                                <br>
+                                                - Var : deklarasi yang jarang digunakan namun mirip dengan deklarasi let.
+                                                <br>
+                                                - Let : deklarasi yang digunakan ketika kita membutuhkan nilai variable yang bisa diubah.
+                                                <br>
+                                                - Const : deklarasi yang digunakan ketika kita membutuhkan nilai yang tidak bisa di berikan nilai baru ketika deklarasi tersebut sudah diberikan suatu nilai.
+                                                <br><br>
+                                                # 1.b Interacting with Declaration
+                                                <br><br>
+                                                - Deklarasi var dan let bisa di gunakan tanpa memberikan nilai, akan memberikan hasil undefined, sedangkan pada deklarasi const perlu diberikan suatu nilai karena ketika kosong maka akan memberikan sebuah error.
+                                                <br>
+                                                - Redeclaration merupakan deklarasi ulang baik itu var, let atau const dengan nama yang sama. Var tidak memunculkan error ketika dilakukan redeclaration, namun untuk let dan const akan muncul error ketika dilakukan redeclaration sehingga let dan const tidak dapat melakukan deklarasi ulang.
+                                                <br>
+                                                - Reassignment merupakan pemberian nilai baru kepada suatu variabel yang sudah bernilai sebelumnya. Var dan let bisa untuk dilakukan suatu reassignment namun untuk const tidak dapat dilakukan sebuah reassignment.
+                                                <br><br>
+                                                # 1.c Scoping
+                                                <br><br>
+                                                Scoping merupakan penentuan dimana variabel fungsi dan objek diatur dan dapat diakses dalam kode atau bisa berarti sebuah ruang lingup variabel dikendalikan oleh lokasi deklarasi. Terdapat tiga jenis scoping yakni:
+                                                <br><br>
+                                                - Global : saat variabel di deklarasikan, variabel tersebut bisa diakses dalam setiap kondisi
+                                                <br>
+                                                - Function : mendeklarasikan sebuah variabel dalam suatu function, sehingga scope hanya berfungsi didalam function tersebut tidak diluar function.
+                                                <br>
+                                                - Block : mendeklarasikan suatu variabel didalam sebuah block scope dan dalam scope tersebut hanya deklarasi var yang bisa diambil nilainya. 
+                                                <br><br>
+                                                # 1.d More Basic Knowledge
+                                                <br><br>
+                                                Hoisting merupakan pembuatan beberapa jenis variabel atau fungsi dapat diakses / digunakan dalam kode sebelum di deklarasikan. Deklarasi var dan function termasuk hoisted sehingga mereka bisa digunakan sebelum deklarasi itu sendiri terjadi.  Sedangkan deklarasi let dan const tidak termasuk hoisted karena perlu untuk di inisiasi terlebih dahulu
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                2. Values, Method and Flow
+                                            </h5>
+                                            <p>
+                                                # 2.a Values, Destructuring, and Spread
+                                                <br><br>
+                                                - Primitive merupakan unit pemprosesan terkecil dan elemen paling sederhana yang tersedia dalam bahasa pemrograman. Contohnya string, bool, number, bigint, undefined, null, dan symbol.
+                                                <br>
+                                                - Objects merupakan unit yang menyimpan properti dan fungsi atau method. Contohnya objects, array, function, date, set, map, weak 
+                                                <br>
+                                                - Destructuring merupakan ekspresi dari JS yang memungkinkan untuk menyalin nilai dari array, atau properti dari objek, ke dalam variabel yang berbeda. Destructuring dapat dilakukan pada array dan object, yang membedakan variabel tersebut merupakan array dan object adalah tanda kurung yang digunakan, array menggunakan kurung siku, sedangkan object menggunakan kurung kurawal.
+                                                <br>
+                                                - Spread syntax dapat digunakan ketika semua elemen dari object atau array perlu dimasukkan ke dalam semacam daftar. Spread syntax digambarkan dengan titik tiga (…) diikuti dengan variabel yang akan disalin. 
+                                                <br>
+                                                - Perbedaan dari destructuring dengan saat menggunakan spread syntax terletak ketika kita mengubah variabel yang disalin, dimana variabel yang diubah ketika melakukan penyalinan biasa maka kedua variabel akan berubah, sedangkan ketika menggunakan spread syntax maka hanya variabel yang diubah saja yang berubah nilainya. 
+                                                <br><br>
+                                                # 2.b Method
+                                                <br><br>
+                                                Method merupakan sebuah fungsin yang terkait dengan objek, membuat programnya se-sederhana mungkin sesuai dengan kegunaan masing-masing atau bisa dibilang suatu shortcut ketika melakukan programming pada JS. Beberapa method yang akan dibahas diantaranya yakni:
+                                                <br>
+                                                - Concat: menggabungkan dua atau lebih array dan mengembalikan Salinan array yang digabungkan mirip dengan spread syntax namun terdapat perbedaan kapan untuk menggunakannya, jika untuk menyalin menggunakan spread syntax namun jika untuk menggabungkan dua array lebih baik menggunakan method concat. 
+                                                <br>
+                                                - Map: Membuat array baru dengan hasil memanggil fungsi untuk setiap elemen array. Hasil dari method function adalah sebuah array.
+                                                <br>
+                                                - Foreach: Memanggil fungsi untuk setiap elemen array, perbedaan dengan map adalah jika map digunakan untuk looping dan menghasilkan array namun foreach itu melakukan looping dan operasi terjadi di dalam array tersebut.
+                                                <br>
+                                                - Slice: Memilih bagian dari array dan mengembalikan array baru. 
+                                                <br>
+                                                - Filter: Membuat array baru dengan setiap elemen dalam array yang lulus seleksi / kondisi. 
+                                                <br>
+                                                - Reduce: Melakukan operasi pada setiap elemen array menjadi nilai tunggal (dilakukan dari kiri ke kanan)
+                                                <br><br>
+                                                # 2.c Flow
+                                                <br><br>
+                                                Terdapat 2 jenis dari alur sebuah program berjalan yakni
+                                                <br>
+                                                - Normal Flow : pengeksekusian statement dari atas ke bawah atau kiri ke kanan yang dilakukan secara berurutan
+                                                <br>
+                                                - Control Flow : mengatur alur eksekusi pada statement atau jalannya program sesuai keinginan kita. Untuk membuat suatu control flow kita membutuhkan looping dan percabangan / pengkondisian untuk mengatur alur dari kode yang dibuat. -
+                                                <br>
+                                                - Pengulangan bisa menggunakan for, while dan do while untuk mengatur jumlah eksekusi statement yang diberikan
+                                                <br>
+                                                - Pengkondisian bisa menggunakan if – else, switch, block, try – catch, break, continue, throw untuk menyediakan beberapa pilihan alur statement yang dikerjakan dalam suatu kondisi. Beberapa pengertian pengkondisian:
+                                                <br>
+                                                - Try – catch: try bertugas mengeksekusi statement di dalamnya, sedangkan catch bertugas menangkap error yang terjadi pada statement di dalam try.
+                                                <br>
+                                                - Throw : throw terjadi di dalam block try, bertugas melemparkan error sesuai kondisi yang diinginkan, error itu akan ditangkap oleh catch
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                3. Function, Class, Async - Await
+                                            </h5>
+                                            <p>
+                                                # 3.a Function and its kind
+                                                <br>
+                                                Function pada JS adalah sebuah objek, karena memiliki properti dan juga method. Function digunakan untuk melakukan serangkaian komputasi / prosedur yang dapat digunakan berulang kali. 
+                                                <br><br>
+                                                - Deklarasi fungsi :
+                                                <br>
+                                                Function {nama fungsi}(param1, param2) {<br>
+                                                    Console.log(param1 + “ ” + param2); -> area / scope fungsi <br>
+                                                }<br>
+                                                {nama fungsi}(param1, param2) -> pemanggilan fungsi
+                                                <br>
+                                                - Function expression -> membuat function menjadi sebuah variabel, caranya tambahkan deklarasi variabel pada nama fungsi diikuti = suatu function. Contoh: <br>
+                                                Let namaLengkap = function (param1, param2) {…}
+                                                <br>
+                                                - Arrow Function -> hampir sama dengan function expression namun penulisan function ditiadakan diganti dengan tanda panah (kombinasi tanda sama dengan dan tanda lebih dari {=>}) contoh: <br>
+                                                Let namaLengkap = (param1, param2) => {…}
+                                                <br><br>
+                                                # 3.b Classes
+                                                <br><br>
+                                                Secara definisi, class adalah prototype dari suatu object yang akan kita buat. Constructor adalah method di dalam class yang akan selalu terpanggil pertama kali ketika membuat object. Method adalah sebuah fungsi yang berada di dalam class yang terpanggil jika dipanggil oleh kita. Attributes merupakan kumpulan variabel yang membentuk object yang dimiki oleh suatu class. Extend digunakan untuk membuat kelas anak dari kelas induk, kelas anak mewarisi semua atribut dan metode dari kelas induk. 
+                                                <br><br>
+                                                # 3.c Async - Await and DOM
+                                                <br><br>
+                                                - Synchronous: mengekseskusi setiap perintah satu persatu sesuai urutan kode yang dituliskan. Output dari code sesuai dengan urutan karena setiap perintah harus menunggu perintah sebelumnya selesai.
+                                                <br>
+                                                - Asynchronous: hasil eksekusi atau output yang tidak selalu berdasarkan urutan kode tetapi berdasarkan waktu proses kode. Contohnya setTimeout digunakan untuk menunda eksekusi sehingga sambil menunggu maka js akan mengeksekusi perintah selanjutnya.
+                                                <br>
+                                                - Callback: fungsi yang dikirimkan sebagai parameter pada fungsi lain atau fungsi yang dieksekusi setelah fungsi lain selesai dijalankan. 
+                                                <br>
+                                                - Promise: objek yang merepresentasikan keberhasil atau kegagalan pada sebuah event yang asynchronous dimasa mendatang terdapat 3 yakni resolve – then(), reject – catch(), finally. 
+                                                <br>
+                                                - Asynchronous function: sebuah function yang bekerja secara asynchronous yang menghasilkan promise sebagai return value-nya, tetapi cara penulisan code-nya menggunakan penulisan yang synchronous (standar). 
+                                                <br>
+                                                - Await: sebuah keyword yang terdapat pada async function yang tujuannya menghentikan eksekusi sambil menunggu promise-nya selesai.
+                                                <br>
+                                                - DOM : Document Object Model (DOM) adalah suatu API untuk HTML yang merepresentasikan halaman web pada suatu dokumen menjadi sebuah object. 
+                                                <br>
+                                            </p>
+                                        </div>
+                                        <hr>
+                                        <div class="img-container">
+                                            <h3 class="ms-4">ScreenShot Tugas:</h3>
+                                            <img src="./assets/img/screenshots/7_soal1.png" alt="bs-desktopview"
+                                                class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="cleancode" role="tabpanel" aria-labelledby="cleancode-tab">
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <div class="card card-list d-block" href="#">
+                                    <div class="card-body">
+                                        <div class="px-4">
+                                            <h4 class="text-center my-3">
+                                                Clean Code
+                                            </h4>
+                                            <h5>
+                                                1. What is Clean Code? Why Clean Code?
+                                            </h5>
+                                            <p>
+                                                Clean code merupakan istilah untuk kode yang mudah dibaca, difahami dan diubah oleh developer. Beberapa alasan kenapa kita harus mengimplementasikan clean code diantaranya:
+                                                <br><br>
+                                                1. Work Collaboration: semua orang dalam tim harus bisa mengerti maksud dari code yang ditulis.
+                                                <br>
+                                                2. Feature Development: mengetahui fungsi dari fitur agar lebih jelas dan mudah dipahami.
+                                                <br>
+                                                3. Faster Development: jika kedua hal sebelumnya terpenuhi maka secara tidak langsung akan mempercepat proses development suatu aplikasi atau sistem.
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                2. Clean Code Characteristics
+                                            </h5>
+                                            <p>
+                                                Beberapa karakteristik penggunaan clean code yang benar diantaranya:
+                                                <br>
+                                                1. Mudah difahami: menggunakan penamaan yang mudah difahami
+                                                <br>
+                                                2. Mudah dieja dan dicari
+                                                <br>
+                                                3. Singkat namun mendeskripsikan konteks
+                                                <br>
+                                                4. Konsisten: jika penulisan besar maka besar terus, mengunakan camelcase maka menggunakan camelcase untuk semua penulisannya
+                                                <br>
+                                                5. Hindari penambahan konteks yang tidak perlu misalnya repetisi penggunaan nama 
+                                                <br>
+                                                6. Komentar: cukup menggunakan komentar pada hal yang penting namun mendeskripsikan keseluruhan bagian yang terkait
+                                                <br>
+                                                7. Good function: membuat function dengan urutan yang benar dan relevan dalam penamaannya
+                                                <br>
+                                                8. Gunakan konvensi: menggunakan referensi atau style guide dalam menuliskan kode
+                                                <br>
+                                                9. Formatting: indentasi dan penempatan variabel atau fungsi yang konsisten antar satu sama lain.
+                                                <br>
+                                            </p>
+                                            <h5>
+                                                3. Clean Code Principle
+                                            </h5>
+                                            <p>
+                                                - KISS : Keep It So Simple
+                                                <br>
+                                                Fungsi atau class harus kecil, fungsi untuk satu tugas, argumen yang core saja, sehingga mencapai kondisi seimbang, kecil, dan jumlahnya minimal.
+                                                <br>
+                                                - DRY : Don't Repeat Yourself
+                                                <br>
+                                                Menghindari duplikasi kode dilakukan dengan membuat fungsi yang bisa digunakan secara repetitif atau umum.
+                                                <br>
+                                                - Refactoring : restrukturisasi kode yang mengubah struktur internal tanpa mengubah output untuk mencapai kedua prinsip sebelumnya.
+                                                <br>
+                                            </p>
+                                        </div>
+                                        <hr>
+                                        <div class="img-container">
+                                            <h3 class="ms-4">ScreenShot Tugas:</h3>
+                                            <img src="./assets/img/screenshots/8_problem2.png" alt="bs-desktopview"
+                                                class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

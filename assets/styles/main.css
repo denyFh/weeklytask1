@@ -1,0 +1,26 @@
+/* Add Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+body {
+  font-family: "Source Sans Pro", sans-serif !important;
+  background-image: linear-gradient(to bottom right, rgba(255, 157, 20, 0.689), rgb(248, 57, 255));
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255)!important;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .header {
+    flex-direction: column-reverse;
+    text-align: center!important;
+  }
+
+  .header .col .text-end {
+    text-align: center!important;
+  }
+
+  .nav .nav-pills .nav-link{
+    justify-content: center!important;
+  }
+}
